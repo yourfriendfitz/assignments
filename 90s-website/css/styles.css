@@ -70,10 +70,18 @@ size: 18px;
 
 }
 
+.album-content {
+    align: center;
+}
+
 .rating {
     
     font-size: 25px;
     font-weight: bold;
     color: navy;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.song-vid {
+    padding: 50px;
 }
