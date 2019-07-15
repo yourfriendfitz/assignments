@@ -1,0 +1,153 @@
+@import 'mobile', 'desktop';
+
+%blue-white {
+    color: white;
+    background-color: #0097e6;
+}
+
+%white-blue {
+    color: #0097e6;
+    background-color: white;
+}
+
+%orange-white {
+    color: white;
+    background-color: #f0932b;
+}
+
+%white-orange {
+    color: #f0932b;
+    background-color: white;
+}
+
+%gray-gray {
+    color: #535c68;
+    background-color: #dff9fb;
+}
+
+.navbar {
+    @extend %blue-white;
+    padding-top: 0;
+    padding-bottom: 0;
+
+    a {
+        @extend %blue-white;
+
+    }
+
+    .navbar-toggler {
+        border-color: white;
+    }
+
+    a.current {
+        font-weight: bolder;
+    }
+
+    .collapse.navbar-collapse {
+        display: flex;
+    }
+
+}
+
+.logo {
+    margin-left: 33%;
+    margin-right: 66%;
+    font-size: 60px;
+    height: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-menu {
+    @extend %white-blue;
+
+    a {
+        @extend %white-blue;
+    }
+}
+
+.btn {
+    @extend %blue-white;
+}
+
+.btn-outline-success {
+    @extend %white-blue;
+    border-color: #0097e6;
+    // opacity: 0.8;
+}
+
+.btn-outline-success:hover {
+    @extend %white-orange;
+    border-color: #f0932b;
+
+    span {
+        opacity: 1.0;
+    }
+}
+
+.btn-outline-success:not(:disabled):not(.disabled).active,.btn-outline-success:not(:disabled):not(.disabled):active,.show>.btn-outline-success.dropdown-toggle {
+
+    @extend %orange-white;
+    border-color: white;
+}
+
+.page-content {
+    margin-top: 10px;
+    display: flex;
+    
+}
+
+.jumbotron {
+    width: 60%;
+}
+
+.articles {
+    width: 40%;
+    padding: 0;
+    background-color: #f0932b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .article-snapshot {
+        
+        background-color: white;
+        margin: 5px;
+        padding: 5px;
+
+        h4 {
+            color: #0097e6;
+        }
+
+        p {
+            font-size: 0.8rem;
+        }
+
+        .button-row {
+            display: flex;
+            align-items: center;
+        }
+
+        button {
+            margin-right: 10px;
+            padding: 5px;
+            min-height: 30px;
+            background-color: #f0932b;
+            border: none;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+            .button-content {
+                font-size: 1.2rem;
+                
+                i {
+                    margin-right: 10px;
+                }
+            }
+
+        }
+    }
+}
+
+

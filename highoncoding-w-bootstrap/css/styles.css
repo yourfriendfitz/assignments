@@ -1,0 +1,108 @@
+.btn, .navbar a, .navbar {
+  color: white;
+  background-color: #0097e6;
+}
+
+.btn-outline-success, .dropdown-menu a, .dropdown-menu {
+  color: #0097e6;
+  background-color: white;
+}
+
+.btn-outline-success:not(:disabled):not(.disabled).active, .btn-outline-success:not(:disabled):not(.disabled):active, .show > .btn-outline-success.dropdown-toggle {
+  color: white;
+  background-color: #f0932b;
+}
+
+.btn-outline-success:hover {
+  color: #f0932b;
+  background-color: white;
+}
+
+.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.navbar .navbar-toggler {
+  border-color: white;
+}
+.navbar a.current {
+  font-weight: bolder;
+}
+.navbar .collapse.navbar-collapse {
+  display: flex;
+}
+
+.logo {
+  margin-left: 33%;
+  margin-right: 66%;
+  font-size: 60px;
+  height: 1em;
+  display: flex;
+  align-items: center;
+}
+
+.btn-outline-success {
+  border-color: #0097e6;
+}
+
+.btn-outline-success:hover {
+  border-color: #f0932b;
+}
+.btn-outline-success:hover span {
+  opacity: 1;
+}
+
+.btn-outline-success:not(:disabled):not(.disabled).active, .btn-outline-success:not(:disabled):not(.disabled):active, .show > .btn-outline-success.dropdown-toggle {
+  border-color: white;
+}
+
+.page-content {
+  margin-top: 10px;
+  display: flex;
+}
+
+.jumbotron {
+  width: 60%;
+}
+
+.articles {
+  width: 40%;
+  padding: 0;
+  background-color: #f0932b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.articles .article-snapshot {
+  background-color: white;
+  margin: 5px;
+  padding: 5px;
+}
+.articles .article-snapshot h4 {
+  color: #0097e6;
+}
+.articles .article-snapshot p {
+  font-size: 0.8rem;
+}
+.articles .article-snapshot .button-row {
+  display: flex;
+  align-items: center;
+}
+.articles .article-snapshot button {
+  margin-right: 10px;
+  padding: 5px;
+  min-height: 30px;
+  background-color: #f0932b;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.articles .article-snapshot button .button-content {
+  font-size: 1.2rem;
+}
+.articles .article-snapshot button .button-content i {
+  margin-right: 10px;
+}
+
+/*# sourceMappingURL=styles.css.map */
