@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:thin,light,regular,bold,black');
+
+body {
+    font-family:"Roboto", sans-serif;
+    font-weight: thin;
+}
+
+.banner {
+    color: white;
+    background-color: rgb(65, 170, 255);
+    height: 75px;
+    margin: 0px 25px 0px 25px;
+    position: relative;
+}
+
+.banner-text {
+    position: absolute;
+    top: 25%;
+}
+
+.banner a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(65, 170, 255);
+    text-decoration: none;
+    margin: 18px;
+}
+
+.banner-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 25px;
+}
+
+#current-page {
+    font-weight: bold;
+}
+
+.page-content {
+    margin: 10px 60px 10px 60px;
+}
+
+.blurb {
+    background-color: rgb(214, 214, 214);
+    color: rgb(85, 85, 85);
+    padding: 5px;
+}
+
+.blurb-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 10px 10px 10px 10px;
+    display: block;
+}
+
+.blurb-text {
+    margin: 30px 10px 10px 10px;
+    display: block;
+    font-size: 0.8rem;
+}
+
+.article {
+    margin: 20px 0px 20px 0px;
+}
+
+.article-title {
+    font-size: 1.25rem;
+    color: rgb(65, 170, 255);
+    margin: 20px 0px 0px 0px;
+}
+
+.article-summary {
+    margin-top: 4px;
+    font-size: 0.8rem;
+}
+
+.article-footer {
+    background-color: orange;
+    padding: 5px;
+}
+
+.footer-item {
+    color: white;
+    font-weight: bold;
+    margin: 5px 15px 5px 5px;
+}
+
+.row {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.block {
+    width: 200px;
+    height: 150px;
+    background-color: rgb(214, 214, 214);
+    display: inline-block;
+    position: relative;
+    margin: 0px 15px 0px 15px;
+}
+
+.block-title {
+    font-size: 2.2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+.block-articles {
+    position: absolute;
+    top: 130px;
+    left: 70px;
+}
+
+#vbnet {
+    text-decoration: underline;
+}

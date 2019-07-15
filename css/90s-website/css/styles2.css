@@ -1,0 +1,62 @@
+h1 {
+    text-align: center;
+    font-size: 3.2vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: navy;
+}
+
+.title-logo-left {
+    /* float: left; */
+    height: 1em;
+}
+
+.title-logo-right {
+    /* float: right; */
+    height: 1em;
+}
+
+h3 {
+    text-align: center;
+    font-size: 2.3vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: navy;
+}
+
+.main-title {
+    background: repeating-radial-gradient(
+        circle,
+        rgba(255, 0, 0, 0.5),
+        rgba(255, 0, 0, 0.5) 40px,
+        rgba(255, 255, 255, 0.5) 40px,
+        rgba(255, 255, 255, 0.5) 80px
+    )
+}
+
+.main-title img {
+    opacity: 0.75;
+}
+
+.home-album-img {
+    height: 200px;
+    width: auto;
+}
+
+.home-album-img:hover {
+    opacity: 0.5;
+}
+
+.album-link {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+}
+
+.home-album-text {
+    display: block;
+}
+
+.album-row {
+    display: block;
+    
+}
