@@ -37,14 +37,7 @@ console.log(removeDups(dupsArray))
 // is item in the array?
 
 function containsItem(item,array) {
-    inArray = false
-    for (i=0; i < array.length; i++) {
-        if (array.includes(item)) {
-            inArray = true
-            break
-        }
-    }
-    return inArray
+    return array.includes(item) // .includes returns a boolean no need for loop
 }
 
 console.log(containsItem(4,dupsArray))
